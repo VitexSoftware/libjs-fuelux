@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+
+PKG_PATH:=/usr/share/javascript/twitter-bootstrap
+DH_LINKS_FILE:=debian/libjs-twitter-bootstrap.links
+BUILD_DIR:=fuelux
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	echo "$(PKG_PATH)/js/fueleux.js $(PKG_PATH)/fueleux.js" > $(DH_LINKS_FILE)
+	echo "$(PKG_PATH)/js/fueleux.min.js $(PKG_PATH)/fueleux.min.js" >> $(DH_LINKS_FILE)
+	dh_auto_build
+
+override_dh_auto_clean:
+	rm -f $(DH_LINKS_FILE)
+	dh_auto_clean

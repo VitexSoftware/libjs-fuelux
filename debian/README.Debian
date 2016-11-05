@@ -1,0 +1,18 @@
+FuelUX for Debian
+-------------------
+
+In order to make use of twitter fueleux in your html, include the following lines in
+your html header:
+
+    <link type="text/css"
+    href="/javascript/twitter-fueleux/twitter-fueleux.css"
+    rel="stylesheet" />
+
+    <script language="javascript" type="text/javascript"
+    src="/javascript/jquery/jquery.js"></script>
+
+    <script language="javascript" type="text/javascript"
+    src="/javascript/twitter-fueleux/fueleux.js"></script>
+
+ -- Vítězslav Dvořák <vitex@hippy.cz>  Ne říj 21 15:17:56 CEST 2012
+

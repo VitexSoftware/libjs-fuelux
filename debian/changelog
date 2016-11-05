@@ -1,0 +1,6 @@
+libjs-fuelux (3.15.8-1) UNRELEASED; urgency=low
+
+  [ Vítězslav Dvořák ]
+  * Repack with current project state
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Sat, 05 Nov 2016 23:34:20 +0100
